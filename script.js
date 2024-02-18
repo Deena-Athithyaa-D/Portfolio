@@ -12,3 +12,13 @@ var typed = new Typed(".typing-2", {
   loop: true,
   fadeOut: true,
 });
+function proj2open() {
+  var githubUrl = "https://github.com/Deena-Athithyaa-D/bank-App.git";
+  
+  window.open(githubUrl, "_blank");
+}
+function proj1open() {
+  var githubUrl = "https://github.com/Deena-Athithyaa-D/MapApp.git";
+  
+  window.open(githubUrl, "_blank");
+}
