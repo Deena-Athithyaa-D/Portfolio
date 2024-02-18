@@ -126,6 +126,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   margin-right: 100px;
+  padding-left: 30px;
 }
 
 .about-img {
@@ -170,6 +171,7 @@ p {
   border-right: 2px solid red;
   border-bottom: 2px solid red;
   border-radius: 25px;
+  padding-right: 30px;
 }
 .skills-content h3 {
   font-size: x-large;
@@ -282,6 +284,7 @@ p {
   align-items: center;
   margin: 30px;
   background-color: greenyellow;
+  border-radius: 50px;
 }
 #contactpage h2 {
   text-align: center;
