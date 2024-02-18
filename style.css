@@ -492,7 +492,7 @@ p {
 
   /* CONTACT SECTION */
   #contactpage {
-    margin: 0px;
+    margin: 10px;
     background-image: url("images/background.jpg");
     background-size: cover;
     background-position: center;
