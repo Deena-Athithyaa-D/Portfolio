@@ -15,6 +15,57 @@ p {
 .nav {
   height: 100px;
   border: 2px red solid;
+  display: block;
+}
+.menu_icon {
+  display: none;
+}
+.sidebar {
+  background-color: rgb(11, 7, 138);
+  overflow-y: auto;
+  margin-top: 40px;
+  position: fixed;
+  left: -600px;
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  /* background-image: url("images/nav-background.jpg"); */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 20px;
+  transition: left 400ms ease;
+  border-top-right-radius: 25px;
+  vertical-align: middle;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar.active {
+  left: 0;
+  right: 0;
+}
+.sidebar li {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: rgba(4, 9, 98, 0.5) 0.1px solid;
+
+  /* padding-left: 30px; */
+}
+
+.sidebar a {
+  color: white;
+  min-width: 100%;
+  text-decoration: none;
+  display: block;
+  padding-left: 30px;
+}
+.sidebar li:hover {
+  background-color: rgba(13, 109, 252, 0.574);
 }
 .nav img {
   max-width: 150px;
