@@ -23,12 +23,12 @@ var typed = new Typed(".typing-2", {
   fadeOut: true,
 });
 function proj2open() {
-  var githubUrl = "https://github.com/Deena-Athithyaa-D/bank-App.git";
+  var githubUrl = "https://github.com/Deena-Athithyaa-D/EliteBank-Website.git";
 
   window.open(githubUrl, "_blank");
 }
 function proj1open() {
-  var githubUrl = "https://github.com/Deena-Athithyaa-D/MapApp.git";
+  var githubUrl = "https://github.com/Balaji-3009/MealMate.git";
 
   window.open(githubUrl, "_blank");
 }
@@ -39,12 +39,12 @@ const sidebar = document.querySelector(".sidebar");
 function handleScreenWidth() {
   if (window.innerWidth <= 600) {
     menuIcon.style.display = "block";
-    navLinks.style.display = "none"; // Ensure navigation links 
+    navLinks.style.display = "none"; // Ensure navigation links
     sidebar.style.display = "block";
   } else {
     menuIcon.style.display = "none";
     navLinks.style.display = "block"; // Ensure navigation links are shown on resize
-    sidebar.style.display = "none"; 
+    sidebar.style.display = "none";
   }
 }
 handleScreenWidth();
