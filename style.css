@@ -21,7 +21,7 @@ p {
   display: none;
 }
 .sidebar {
-  background-color: rgb(11, 7, 138);
+  background-color: rgb(25, 85, 9);
   overflow-y: auto;
   margin-top: 40px;
   position: fixed;
@@ -294,7 +294,7 @@ p {
 
 .react {
   background-color: #00bcd4; /* React color */
-  width: 50%; /* React proficiency */
+  width: 70%; /* React proficiency */
 }
 
 .nodejs {
